@@ -18,3 +18,9 @@ alert(s);
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+
+
+# Front end developer
+
+https://jsfiddle.net/
+https://codepen.io/pen/
