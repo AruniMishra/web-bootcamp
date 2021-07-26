@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+
+    <h1>Forms Demo</h1>
+
+    <form action="/dummy">
+
+        <p>
+            <label for="username">username:</label>
+
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter your Password: </label>
+            <input id="password" type="password" name="password">
+        </p>
+        <p>
+            <input type="color">
+        </p>
+        <p>
+            <input type="month" name="month">
+        </p>
+        <input type="reset">
+
+        <div>
+            <label for="cheese">love cheese?</label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </div>
+
+        <div>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+
+    <hr>
+    <h1>Another form</h1>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search in Google</button>
+    </form>
+
+
+</body>
+
+</html>
