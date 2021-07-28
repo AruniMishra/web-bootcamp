@@ -49,6 +49,35 @@
     </form>
 
 
+    <h2>More inputs</h2>
+    <form action="/dummy">
+        <input type="checkbox" name="agreed" id="agree">
+        <label for="agree">Agree?</label>
+
+        <p>
+            <label for="meal">slect your meal</label>
+            <select name="meal" id="meal">
+                <option value="veg1">veg1</option>
+                <option value="veg2">veg2</option>
+                <option value="veg3">veg3</option>
+
+            </select>
+        </p>
+
+        <button type="submit">Submit?</button>
+    </form>
+
+
+    <h2>validation demo</h2>
+
+    <form action="/dummy">
+
+        <label for="first">Enter first name</label>
+        <input type="text" name="first" id="first" minlength="5" required>
+
+        <button type="submit">Submit?</button>
+    </form>
+
 </body>
 
 </html>
