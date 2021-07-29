@@ -1,3 +1,17 @@
-h3 {
-    color: deepskyblue;
+h1 {
+    color: green;
+}
+
+h2 {
+    color: magenta;
+}
+
+p {
+    color: white;
+    background-color: black;
+}
+
+button {
+    color:red;
+    background-color: pink;
 }
