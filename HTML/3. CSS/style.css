@@ -3,6 +3,8 @@ h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
+
+    font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
 }
 
 h2 {
@@ -13,6 +15,7 @@ p {
     color: black;
     background-color: aquamarine;
     font-weight: bold;
+    font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
 }
 
 button {
