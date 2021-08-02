@@ -1,0 +1,17 @@
+* {
+  color: chartreuse;
+}
+
+button {
+  font-size: large;
+}
+
+input[type="text"]:nth-of-type(2n) {
+  border: 2px solid red;
+}
+
+.complete {
+
+    color: green;
+ 
+ }
