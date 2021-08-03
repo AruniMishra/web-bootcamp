@@ -1,17 +1,44 @@
-* {
+/* * {
   color: chartreuse;
-}
+  background-color: grey;
+} */
 
 button {
   font-size: large;
+  background-color: aqua;
+  border-radius: 8px;
 }
 
 input[type="text"]:nth-of-type(2n) {
   border: 2px solid red;
 }
 
-.complete {
+/* .complete {
 
     color: green;
  
+ } */
+
+
+ #signup {
+  background-color: darkred;
+ }
+
+ .tag {
+   background-color: lightskyblue;
+   color:crimson;
+   border-radius: 8px
+ }
+
+ li {
+   color: blue;
+ }
+
+ .done {
+   color: grey;
+ }
+
+ #clear{
+   background-color: red;
+   color: white;
  }
