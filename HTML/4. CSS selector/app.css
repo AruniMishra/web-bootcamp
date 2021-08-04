@@ -19,26 +19,33 @@ input[type="text"]:nth-of-type(2n) {
  
  } */
 
-
- #signup {
+#signup {
   background-color: darkred;
- }
+}
 
- .tag {
-   background-color: lightskyblue;
-   color:crimson;
-   border-radius: 8px
- }
+.tag {
+  background-color: lightskyblue;
+  color: crimson;
+  border-radius: 8px;
+}
 
- li {
-   color: blue;
- }
+li {
+  color: blue;
+}
 
- .done {
-   color: grey;
- }
+.done {
+  color: grey;
+}
 
- #clear{
-   background-color: red;
-   color: white;
- }
+#clear {
+  background-color: red;
+  color: white;
+}
+
+.post a {
+  color: forestgreen;
+}
+
+footer a{
+  color:greenyellow;
+}
